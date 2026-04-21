@@ -1,0 +1,132 @@
+﻿
+            <!DOCTYPE html>
+            <html lang="ko">
+            <head>
+              <meta charset="UTF-8">
+              <title>240427 아르카에서</title>
+              <style>
+                body {
+                  font-family: "Helvetica", "Apple SD Gothic Neo", sans-serif;
+                  background-color: #e5ddd5;
+                  margin: 0;
+                  padding: 20px;
+                }
+
+                .chat-container {
+                  max-width: 500px;
+                  margin: auto;
+                  background-color: #fff;
+                  border-radius: 10px;
+                  padding: 15px;
+                  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                }
+
+                .message {
+                  display: flex;
+                  margin-bottom: 12px;
+                  align-items: flex-end;
+                }
+                .message.sent {
+                  justify-content: flex-end;
+                }
+                .message.received {
+                  justify-content: flex-start;
+                }
+
+                .profile-img {
+                  width: 32px;
+                  height: 32px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+                  vertical-align: middle;
+                }
+                .sent .profile-img {
+                  margin-left: 8px;
+                }
+                .received .profile-img {
+                  margin-right: 8px;
+                }
+
+                .bubble {
+                  max-width: 70%;
+                  padding: 10px 14px;
+                  border-radius: 18px;
+                  line-height: 1.4;
+                  font-size: 14px;
+                  /* pre-wrap으로 줄바꿈을 보존 */
+                  white-space: pre-wrap;
+                }
+
+                .bubble img {
+                  display: block;
+                  padding: 0;
+                  margin-top: 10px;
+                  margin-bottom: 5px;
+                  max-width: 100%;
+                  border-radius: 10px;
+                }
+
+                .sent .bubble {
+                  background-color:rgba(57, 85, 244, 0.79);
+                  color: #000;
+                  border-bottom-right-radius: 0;
+                }
+                .received .bubble {
+                  background-color:rgba(225, 225, 225, 1);
+                  color: #000;
+                  border-bottom-left-radius: 0;
+                }
+              </style>
+            </head>
+            <body>
+              <div class="chat-container">
+                
+                  <div class="message sent">
+                    <div class="bubble">... 아아.. 늙는 기분이 이런 걸까... (책을 안고 서재 쪽으로 향한다)</div><img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                  </div>
+                
+                  <div class="message sent">
+                    <div class="bubble">이제 곧 소등시간인데, 서재로 가는 거야?</div><img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                  </div>
+                
+                  <div class="message sent">
+                    <div class="bubble">(품의 책을 보여준다) 다 읽었으니 반납해야지. 내일의 누군가가 읽고 싶을 수도 있으니. 규칙은 어기지 않아.</div><img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                  </div>
+                
+                  <div class="message sent">
+                    <div class="bubble">다른 아이들도 17처럼 점잖았으면 좋았을텐데. (휴게실 쪽을 힐끔 바라보았다.) ...지금처럼 시끌벅적한 것도 나쁘지만은 않다고 생각하긴 하지만. 서재까지 함께 해도 될까?</div><img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                  </div>
+                
+                  <div class="message sent">
+                    <div class="bubble">...동의해. 나도 시끌벅적한 걸 싫어하지 않아. 21 이라면 환영해. 다만 겨우 책을 반납하는 사소한 일에 함께하는 건 번잡스럽지 않을까 걱정이 되네.</div><img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                  </div>
+                
+                  <div class="message sent">
+                    <div class="bubble">사소한 일이라도 함께할 수 있어서 영광인걸. 지금은 이렇게 함께할 수 있어도...... (말 끝을 흐리며 인형을 조금 더 강하게 끌어 안았다.)</div><img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                  </div>
+                
+                  <div class="message sent">
+                    <div class="bubble">(인형을 강하게 끌어안는 걸 보고, 등을 가볍게 쓸어준다) ... 21, 아니... 헨리. 나는 그렇게 사라지지 않을 거란다.</div><img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                  </div>
+                
+                  <div class="message sent">
+                    <div class="bubble">......우리들 중에 정말 그렇게 장담할 수 있는 사람이 있을까? (가라앉았지만 덤덤한 목소리. 거짓말이라며 탓하지도 않고, 그저 사실여부를 가늠하는 듯한 투였다.) 사고는 한 순간에 일어나는 법이잖아.</div><img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                  </div>
+                
+                  <div class="message sent">
+                    <div class="bubble">다행인 점은 저 애들보다 내가 조심스럽다는 것 정도? 그것만으로 너를 안심시킬 순 없겠다만. 다짐이라도 어디니? (서재의 문을 연다)</div><img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                  </div>
+                
+                  <div class="message sent">
+                    <div class="bubble">네 말대로 전부 안심할 수는 없겠지만, 그것만으로도 크게 안심이 되는걸. 게다가 왠지 너와 같이 있으면 시끄러웠던 마음이 가라앉는 느낌이기도 해서. 음… 모래가 바람에 흩날리는 소리를 가만히 듣고 있는 기분이라고 해야할까. (가볍게 웃으며 서재로 따라 들어갔다.) 이번엔 어떤 책을 읽었어?</div><img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                  </div>
+                
+                  <div class="message sent">
+                    <div class="bubble">내가 너의 마음을 시끄럽게 하는 사람이 아니라서 다행이네. (서재의 문이 닫히면 이어 말했다) 헨리, 나도 널 보면 꽤 차분해질 수 있단다. (책장을 찾아가며) 버섯 분류 서적. 알록달록 할 수록 독이 있다는 사실을 알았지.</div><img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                  </div>
+                
+              </div>
+            </body>
+            </html>
+          
