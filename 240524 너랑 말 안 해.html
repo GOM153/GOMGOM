@@ -1,0 +1,760 @@
+﻿
+            <!DOCTYPE html>
+            <html lang="ko">
+            <head>
+                <meta charset="UTF-8">
+                <title>240524 너랑 말 안 해</title>
+                <style>
+                body {
+                    font-family: "Helvetica", "Apple SD Gothic Neo", sans-serif;
+                    background-color: #e5ddd5;
+                    margin: 0;
+                    padding: 20px;
+                }
+
+                .chat-container {
+                    max-width: 500px;
+                    margin: auto;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    padding: 15px;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                }
+
+                .profile-info {
+                    display: grid;
+                    grid-template-columns: 40px 1fr;
+                    align-items: center;
+                    text-align: left;
+                }
+
+                .profile-img {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+                    vertical-align: middle;
+                }
+
+                .profile-info div {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .profile-info .name {
+                    font-weight: bold;
+                    font-size: 16px;
+                    margin-left: 8px;
+                }
+                .profile-info .handle {
+                    font-size: 12px;
+                    color: #818181;
+                    margin-left: 8px;
+                }
+
+                .message-info {
+                    display: grid;
+                    grid-template-columns: 40px 1fr;
+                    align-items: center;
+                    text-align: left;
+                }
+
+                .message {
+                    display: flex;
+                    margin-top: 12px;
+                    flex-direction: column;
+                    margin-bottom: 12px;
+                    margin-left: 5px;
+                    align-items: left;
+                    font-size: 14px;
+                }
+
+                .message img {
+                    display: block;
+                    padding: 0;
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                    max-width: 100%;
+                }
+                </style>
+            </head>
+            <body>
+                <div class="chat-container">
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            출발 전에 생채기 하나라도 더 치료하고 가자....
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            (헨리 여기저기 확인하고 간다) (멀쩡하군...)
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            (생채기 숨김.........)
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            (뭐야 뭔데...) 뭐 숨기는데...
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            (왠지 죄책감 들어서 목 부근에 가려둔 화상 보여줌....) 어제 루스가 놓친 부분.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ... ... 나 오늘 안 다쳤는데? 유치하게 굴어도 돼?
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ......어떻게 할 건데?
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            너랑 말 안 해. (휙 뒤돌아 간다)
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ? ......? 응? (어리둥절하게 따라감) 진짜 말 안 할거야?
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            (무시하고 제 할 일이나 한다)
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            (앞에서 불쌍한 눈으로 알짱거린다....)
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ...(꾹... 헨리 밀어낸다)
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            (속절없이 밀려났다.... 종이에 [진짜 가볍게 다친 거야.] 이런 말이나 써서 앞에 내려둔다.)
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ...(기가 막히는군... 말을 안 하겠다고 하니 웬디식(?) 대화를 시도하는 헨리를 보다가) 네가 웬디야?
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            웬디의 측근 정도는 되는데. (뻔뻔한 표정으로 화상자국이 있던 부분을 보였다.) 치료도 받고 왔어.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            치료했으니까... 통과... (끄덕인다) 고생했어.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ......너도 고생했어. 무사히 다녀와서 다행이긴 한데...(왠지 불만 가득한 표정) 진짜 말도 안 하는 게 어디있어.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            (불만 가득한 얼굴 보고는) ... 치사하다고 생각할 거라는 건 네가 먼저였는데도... ...다쳤으면 치료를 받아야지. 나도 그랬거든? ... 조금 늦게 받았지만, 여튼...
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            조금 늦게... 흠. (본인의 과거 행적은 생각도 안 하고 팔짱 끼고 앉아서 쳐다보다가) 들고갔던 물은 다 마셨고?
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ... 왜지, 한마디밖에 안 했는데 역전이 된 느낌이 드네...? (이것도 여기 와서야 마셨지만 빈 병 두 개를 보여준다)
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            난 있었던 일도 다 말했고, 남은 상처까지 말끔히 치료했지만, 치사하게 말도 안 걸어주시던 마녀님은 그게 아니라서? (빈 물병에는 만족스러운 표정을 지었다.)
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ... ...? 네가 어제 상태가 별로 였... (쪼금 억울한 표정이 된다) ... 나도 상처는 다 치료했는데...! 다녀와서 말한다고 했잖아.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ......상태가 안 좋았던 건 맞는데, 아무튼. 치료 늦게 받았다며. (불만 가득한 얼굴로 바라봤다.) 그럼 이제 말해줄거야?
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            (왜 또 불만이 생긴 거지? 어디서부터 잘못되었는지 되짚어보다가 슬금... 옆에 앉았다) 그... 내 상태부터 어떻게 다스려야해서. 응 말해줄게. 그러니까... 연구시설을 부수는 게 목적이었잖아 나는...
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ...그것도 필요하긴 했지. (제정신이 아닌 상태에서도 나쁜 상태였던 건 알 수 있었으니까. 네 쪽으로 몸을 살짝 돌려 앉았다.) 그랬지. ...어린애들 얘기가 좀 나오긴 했던 것 같은데.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            응. 가자마자... 창고가 제일 가까워서 들어갔어. 딱히 인기척은 없는 것 같아서 열었는데, 안에 덩굴이 가득하길래... 그걸 치우고 들어갔더니 애들이 있는 거 아니니... (잠깐 말을 끊었다) ... 우리랑 똑같은 애들이었어. 단정한 옷에, 번호랑...
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            아...... 그 애들도, 계속 수치를 끌어올리는 실험을 위해서....(인상을 찌푸렸다. 참담한 기분에 마른 세수를 했다. 자연스럽게 엘리아스가 했던 행동에 대한 이야기를 떠올릴 수밖에 없었으니까.) ......우리처럼 교관들이랑 같이 생활하고 있었어?
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            (고개를 끄덕였다) 그 애들은 이름도 없었어. 그냥 교관이 밖에 나가지 말라고 해서 숨어있었대. 와중에 아픈 애가 하나 있어서 이디스가 봐줬는데... ...그 애가 수치 이상이라는걸 우리가 미처 몰랐어. ...그래서, 우린 우리 할 일도 해야하니까... 다시 돌아오겠다고 약속하고 나갔지... (그러지 말걸. 작게 덧붙였다)
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ...너무 어른들 말을 잘 듣네... 반항 좀 해도 될텐데. 그 애들을 돌보던 교관, 엘리아스인지 아닌지는 알아? 아니었으면 좋겠다고 생각해서 물어보는 거긴 해. (한숨을 내쉬었다.) .....다시 돌아갔을 땐 이미 늦었던 거구나.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ...엘리아스가 맞아. ...애들 사이에서도 의견이 분분했어, 나가야한다 아니다. 꼭 문지기를 처음봤을 때 우리 같아서... ...동력기관을 부수고 이상하게 쿵쿵 소리가 들리길래 급하게 돌아갔더니, 늦었지. 눈앞에서 변하는 걸 봤거든... 그리고 그 뒤는... 엉망이었고. (제 양손을 꽉 붙잡았다가 놨다) ...할 수 있는 게 있었을 텐데 아무것도 못했어.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ......그 애들한테는 너희가 문같은 존재였겠네. (착잡한 표정으로 한숨을 내쉬다가, 네 어깨를 가만히 토닥였다.) 그 생각이 들 때는 어떤 말로도 위로가 되지 않는 다는 걸 알지만... 너무 그 생각으로 스스로를 괴롭히지 않았으면 좋겠어. ......네가 나처럼 끝없는 수렁에 빠지지는 않았으면 좋겠거든. 빠진다고 하더라도 어떻게든 데리고 나오겠지만... 너무 괴로운 일인 걸 아니까.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ...나랑 손 잡고 약속한 아이가 핀이랑 같은 번호에, 비슷한 능력이었거든. 이제 와서 생각해보면 나도 모르게 걔들이랑 너희를 너무 많이 투영했나봐. (짧게 한숨을 쉬었다) 돌아오니 감정 조절이 너무 힘들어서... 그랬지... ...괜찮을걸, 아마. 괜찮아질거야.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ……겹쳐볼 수밖에 없었던 상황이니까. 다르게 생각해보면, 엘리아스가 우리를 그런 상황에 몰아 넣으려고 모든 걸 준비했을 수도 있고. …..네 잘못이 아니야. (잠시 침묵했다.) 요 며칠동안 든 생각인데, …우리는 좀 괜찮지 않아도 되는 거 아닐까? 괜찮을 거라고 덮어두다가 가끔 터지잖아. 너도, 나도.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ... (생각하는 듯 잠깐 말이 없다가) 가능성 있네, 관리실이 깨끗하게 비어있었거든? 일부러 만나고 스트레스라도 받으라고 준비해뒀을 수도... ...음, 루스도 비슷한 소리를 하긴 했는데. 괜찮지 않은건 또 어떻게 하는 거람...
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            일부러 벨의 목에 자기 출입증도 걸어 놨던 인간이니까. ...나도 루스한테 들었어. (어깨를 으쓱였다.) 치료 안 받겠다고 고집 부리니까 차라리 쟤네를 죽여버리겠다고 날뛰라던데. ......화나면 화내고, 제 때 풀고, 슬프면 슬퍼하고. 이런 거 아닐까? 우린 보통 덮어두니까.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            징그러운 인간... ... 루스 복장 뒤집어두는 원인이 우리 둘일 줄이야. (우스갯소리로 하다가 잠시 생각한다) 그렇지, 그걸 기준으로 생각해보면... 헨리는 최근 꽤 잘하고 있는 것 아니니? 물론 좋은 결과로 나온 게 아니라서 다행이라고 하기는 좀 그렇다...
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            소집 이후에 루스한테 먹은 욕만 따져도 난 불사신이 될 거야. (농담조로 던지며 웃었다.) ......며칠 전까지만 해도 살고 싶지 않다고 난리쳤는데, 그래도 잘 하고 있다고 해주는 거야? ......그리고 온전히 스스로 성공한 건 아닐걸. 네가 많이 도와줬잖아.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            헨리는 이런 일이 아니면 꽤 잘 웃는 편이기도 하고 도움을 받을 때 할 수 있는 건 좋은... ...? (이번엔 이쪽이 불만스러워졌다)  ...그러니까 고통을 대신 체험해보고 싶었다는 부분이 살고 싶지 않았다는 뜻이었다? 아하? 그러시다?
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ......방금 말하면 안 될 걸 말해버린 기분인데. (불만스러운 목소리에 어쩔 줄 모르는 표정으로 변명했다.) 그, 음... 너도 알다시피 그 때는 내 상태가 너무 안 좋아서 그랬어. 벨도 만나고, 블랙맨이 될 뻔 하기도 했고... 그... 음.... .......잘못했어. 하면 안 될 생각이었다는 거 알아.....
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            ... ... (불만스럽게 보다가 낮게 한숨을 쉬었다) 네 말투나 표정을 봐선 그런 생각을 아주 안 한 건 아니구나 싶긴 했어. 직접 듣는 건 또 다른 느낌이네. 이해... (습관적으로 대답하다가 멈칫) 아니다, 이건 이해 안 할래... ...반성하는 것 같으니 이번만 넘어가는 거야... (팔을 벌린다) 너 때문에 짜증났으니까 빨리 위로해...
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/013/931/545/998/original/31c897ae112cdfab.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">헨리</div>
+                          <div class="handle">@arca_021</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            내가 겪었어야 할 일이라는 생각이 들어서... 아, 아니. (습관적으로 비관적인 생각을 내뱉다가 입을 꾹 닫았다. 불만이 가득해보이는 표정에 눈치를 슬쩍 보다가, 너를 품에 안고 등을 가볍게 토닥였다.) ......미안, 이젠 그런 생각 안 할게... 네가 구해준 목숨이나 다름 없으니까.
+                        </div>
+                    </div>
+                
+                    <div class="profile-info">
+                      <img src="https://assets.occm.cc/accounts/avatars/112/337/028/306/451/423/original/6aed94f25d013766.png" alt="프로필" class="profile-img">
+                      <div>
+                          <div class="name">아이린</div>
+                          <div class="handle">@arca_017@occm.cc</div>
+                      </div>
+                    </div>
+                    <div class="message-info">
+                        <div>
+                            <p> </p>
+                        </div>
+                        <div class="message">
+                            네가 겪었어야 할 일이라는 건 없어. 벨도 그렇지만, 어떤 일이던지간에 우리가 겪어 마땅했던 고통이나 불행같은 건 없어... (어깨를 주먹으로 툭 치곤) 그럼 소중히 여겨. 어디에 파묻혀도 찾으러 갈 거라는 거 잊지 마.
+                        </div>
+                    </div>
+                
+                </div>
+            </body>
+            </html>
+          
